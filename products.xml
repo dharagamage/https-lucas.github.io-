@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="products.xsl"?>
+<!DOCTYPE products[
+  <!ELEMENT products (record*)>
+  <!ELEMENT record (productNumber, productName, productDescripttion, productPrice, productImage, productSound)>
+  <!ELEMENT productNumber (#PCDATA)>
+  <!ELEMENT productName (#PCDATA)>
+  <!ELEMENT productDescription (#PCDATA)>
+  <!ELEMENT productPrice (#PCDATA)>
+  <!ELEMENT productImage (#PCDATA)>
+  <!ELEMENT productSound (#PCDATA)>
+]>
+<products>
+  <record>
+    <productNumber>1</productNumber>
+    <productName>Sourdough White</productName>
+    <productDescription>Our standard sourdough.</productDescription>
+    <productPrice>7.00</productPrice>
+    <productImage>sourdoughWhite.gif</productImage>
+    <productSound>sourdoughWhite.mp3</productSound>
+  </record>
+  <record>
+    <productNumber>2</productNumber>
+    <productName>Sourdough Rye</productName>
+    <productDescription>Sourdough created with 50% rye flour.</productDescription>
+    <productPrice>8.00</productPrice>
+    <productImage>sourdoughRye.gif</productImage>
+    <productSound>sourdoughRye.mp3</productSound>
+  </record>  
+  <record>
+    <productNumber>3</productNumber>
+    <productName>Sourdough Spelt</productName>
+    <productDescription>Sourdough created with 100% spelt flour</productDescription>
+    <productPrice>9.00</productPrice>
+    <productImage>sourdoughSpelt.gif</productImage>
+    <productSound>sourdoughSpelt.mp3</productSound>
+  </record>  
+  <record>
+    <productNumber>4</productNumber>
+    <productName>Sourdough Seeded</productName>
+    <productDescription>Sourdough including a mixture of yummy seeds</productDescription>
+    <productPrice>9.50</productPrice>
+    <productImage>sourdoughSeeded.gif</productImage>
+    <productSound>sourdoughSeeded.mp3</productSound>
+  </record>
+</products>

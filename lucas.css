@@ -1,0 +1,43 @@
+body
+{
+	font-family: arial;
+	background-color: #f4f6f7;
+	color: #212f3c;
+}
+
+h2
+{
+	text-align: center;
+	text-decoration: underline;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin: auto;
+}
+
+table, th, td
+{
+	border: 1px solid #626567;
+}
+
+th, td
+{
+	padding: 0px 5px;
+}
+
+tr.headerRow
+{
+	background-color: #9acd32 !important;	
+}
+
+tr:nth-child(odd)
+{
+	background-color: #e5e7e9;	
+}
+
+tbody>tr:hover
+{
+	background-color: #bfc9ca;	
+}
